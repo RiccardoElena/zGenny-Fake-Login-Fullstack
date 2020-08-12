@@ -44,6 +44,7 @@ path {
 
 .btn-content {
   border: 1px solid #EE5340;
+  border-radius: 10px;
   width: 50%;
   margin: 5px;
 }
@@ -55,15 +56,9 @@ a {
 
 /* interactive classes*/
 
-.error-container {
-  margin-top: 15vh;
-}
 
-.alert {
-  border: none;
-  height: 5vh;
-}
 
 .error {
   background-color: red;
+  border-radius: 10px;
 }
