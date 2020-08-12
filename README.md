@@ -19,4 +19,4 @@
 4. Run the commands  
    `use zgenny_scam`  
    `db.users.find()`  
-   in the Mongo Shell to see all the register user
+   in the Mongo Shell to see all the registered Users
