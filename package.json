@@ -1,0 +1,35 @@
+{
+	"name": "zgenny-scam",
+	"version": "1.0.0",
+	"description": "zGenny scam fullstack app",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/RiccardoElena/zGenny-Scam-Fullstack.git"
+	},
+	"keywords": [
+		"node",
+		"ejs",
+		"css",
+		"js"
+	],
+	"author": "Riccardo Elena",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/RiccardoElena/zGenny-Scam-Fullstack/issues"
+	},
+	"homepage": "https://github.com/RiccardoElena/zGenny-Scam-Fullstack#readme",
+	"dependencies": {
+		"connect-flash": "^0.1.1",
+		"ejs": "^3.1.3",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"mongoose": "^5.9.28",
+		"passport": "^0.4.1",
+		"passport-local": "^1.0.0",
+		"passport-local-mongoose": "^6.0.1"
+	}
+}

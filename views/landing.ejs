@@ -1,0 +1,60 @@
+<%- include('./partials/header') %>
+<title>INSERIRE TITOLO!</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
+<link rel="stylesheet" href="/stylesheets/main.css">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+  <header calss="nav">
+    <div class="logo">
+      <img
+        src="https://www.linkem.com:443/-/media/linkem/images/logo/logo-linkem-new.png?h=140&w=320&hash=7F4116801FB8D7C2C4C5E58256B123CBA8153816">
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 94"
+        class="flex-none inline-block h-full text-white align-top fill-current stroke-current"
+        style="width: 27px; margin-left: -1px;">
+        <path
+          d="M24,39.4L5.6,7.5C3.3,3.5,0.8,0,0.8,0h0H0v94h0.8v0h0c0,0,2.5-3.7,4.8-7.7L24,54.5C26.7,49.8,26.7,44.1,24,39.4 z"
+          transform="translate(-0.0078 0)" class="cls-1"></path>
+      </svg>
+    </div>
+  </header>
+
+  <% if(error && error.length > 0) { %>
+  <div class="container error">
+    <p>
+      <%= error %>
+    </p>
+  </div>
+  </div>
+  <% } %>
+  <div class="container">
+    <h1>
+      PROVA GRATIS LA VELOCITÀ E LA PRATICITÀ DELLA NUOVA RETE <img
+        src="https://www.linkem.com:443/-/media/linkem/images/logo/logo-linkem-new.png?h=140&w=320&hash=7F4116801FB8D7C2C4C5E58256B123CBA8153816"
+        alt="" srcset="">
+    </h1>
+    <h2 class="title">Connettiti al Wi-fi</h2>
+    <p>Utilizza il tuo account Google o il tuo account Instagram per accedere alla rete</p>
+    <form action="">
+      <div class="login-type">
+        <div class="btn-content google">
+          <p>
+            <a href="/google"><i class="google icon"></i> Login with Google</a>
+          </p>
+        </div>
+        <div class="btn-content instagram">
+          <p>
+            <a href="/instagram"><i class="instagram icon"></i> Login with Instagram</a>
+          </p>
+        </div>
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <%- include('./partials/footer')  %>
